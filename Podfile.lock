@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (3.3.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - R.swift (2.1.0):
+    - R.swift.Library (~> 2.0.0)
+  - R.swift.Library (2.0.0)
+  - RxCocoa (2.4):
+    - RxSwift (~> 2.4)
+  - RxSwift (2.4)
+  - Toast (3.0)
+  - XLPagerTabStrip (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - FMDB (~> 2.6.2)
+  - R.swift (~> 2.1.0)
+  - RxCocoa (~> 2.4)
+  - RxSwift (~> 2.4)
+  - Toast (~> 3.0)
+  - XLPagerTabStrip (~> 5.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  R.swift: efff131531b5cf142e28fd94957806ff71ccbcf2
+  R.swift.Library: 9f4b2d12040daa1ffe336d8f7e1574f73721fd01
+  RxCocoa: 7d6cd877de99f5640306b3d6cf87f580c1d91b61
+  RxSwift: 67b9ef4e8b34fb394e200e754c6a09cc16559f94
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
+
+COCOAPODS: 0.39.0

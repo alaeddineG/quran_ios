@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MosshafActionBar" customModule="Quran" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJn-zJ-vdz">
+                    <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="page 1, Juz' 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcH-6H-f5T">
+                            <rect key="frame" x="48" y="23" width="274" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Surat Al-Fatiha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0N-pp-XoT">
+                            <rect key="frame" x="48" y="8" width="306" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaA-jb-65F">
+                            <rect key="frame" x="8" y="6" width="32" height="32"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <state key="normal" image="abc_ic_ab_back_mtrl_am_alpha"/>
+                            <connections>
+                                <action selector="didPushBackButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="QX8-Tq-Syg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkO-iT-yH7" userLabel="More">
+                            <rect key="frame" x="552" y="6" width="40" height="32"/>
+                            <state key="normal" image="ic_menu"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42f-QM-eYX" userLabel="Translation">
+                            <rect key="frame" x="504" y="6" width="40" height="32"/>
+                            <state key="normal" image="ic_translation"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKD-BK-wYu" userLabel="Bookmark">
+                            <rect key="frame" x="456" y="6" width="40" height="32"/>
+                            <state key="normal" image="ic_not_favorite"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.66000000000000003" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fkO-iT-yH7" secondAttribute="trailing" constant="20" symbolic="YES" id="4Vy-oY-m5o"/>
+                        <constraint firstItem="42f-QM-eYX" firstAttribute="leading" secondItem="lKD-BK-wYu" secondAttribute="trailing" constant="8" symbolic="YES" id="l7e-UK-yas"/>
+                        <constraint firstItem="fkO-iT-yH7" firstAttribute="leading" secondItem="42f-QM-eYX" secondAttribute="trailing" constant="8" symbolic="YES" id="rrg-8N-4lS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LzC-jd-hsv">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.66000000000000003" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="aJn-zJ-vdz" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="cYk-cx-3e0"/>
+                <constraint firstItem="aJn-zJ-vdz" firstAttribute="width" secondItem="LzC-jd-hsv" secondAttribute="width" id="jp6-Mv-In3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backButton" destination="yaA-jb-65F" id="PzP-cc-nTJ"/>
+                <outlet property="suraDescriptionLabel" destination="fcH-6H-f5T" id="sLt-Z9-gQF"/>
+                <outlet property="suraNameLabel" destination="x0N-pp-XoT" id="rP4-cY-gYd"/>
+            </connections>
+            <point key="canvasLocation" x="-180" y="-127"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="abc_ic_ab_back_mtrl_am_alpha" width="32" height="32"/>
+        <image name="ic_menu" width="32" height="32"/>
+        <image name="ic_not_favorite" width="32" height="32"/>
+        <image name="ic_translation" width="32" height="32"/>
+    </resources>
+</document>
