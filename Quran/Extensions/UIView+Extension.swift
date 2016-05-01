@@ -89,7 +89,7 @@ extension UIView {
       frame.size.height = newHeight
       self.frame = frame
     }
-  }  }
+  }
   
   var centerX : CGFloat {
     get {
